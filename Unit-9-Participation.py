@@ -17,3 +17,13 @@ die_6: Die = Die()
 print("Rolling 6-sided die 10 times")
 for i in range(10):
     print(f"{die_6.roll_dice()}")
+
+die_10: Die = Die(10)
+print("Rolling 10-sided die 10 times")
+for i in range(10):
+    print(f"{die_10.roll_dice()}")
+
+die_20: Die = Die(20)
+print("Rolling 20-sided die 10 times")
+for i in range(10):
+    print(f"{die_20.roll_dice()}")
